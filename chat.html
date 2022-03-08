@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="../css/chat.css">
+</head>
+<body>
+<!-- partial:index.partial.html  -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <div class="fabs">
+  <div class="chat">
+    <div class="chat_header">
+      <div class="chat_option">
+      <div class="header_img">
+        
+        </div>
+        <span id="chat_head">Ihame</span> <br> <span class="agent">Admin</span> <span class="online">(Online)</span>
+       <span id="chat_fullscreen_loader" class="chat_fullscreen_loader"><i class="fullscreen zmdi zmdi-window-maximize"></i></span>
+
+      </div>
+
+    </div>
+    <div class="chat_body chat_login chat_form">
+       
+        <!-- <i id="chat_first_screen" class="fab"><i class="zmdi zmdi-arrow-right"></i></a> -->
+        <p>We make it easier to visit anywhere in Rwanda. Ask us anything</p>
+        <div class="message_form">
+                  <input placeholder="Name"/>
+                  <input type="email" placeholder="ihamegrbt@gmail.com"/>
+                  <button id="chat_first_screen" class="fab">Start Chat</button> 
+              </div>
+    </div>
+    <div id="chat_converse" class="chat_conversion chat_converse">
+            <!-- <i id="chat_second_screen" class="fab"><i class="zmdi zmdi-arrow-right"></i></a> -->
+      <span class="chat_msg_item chat_msg_item_admin">
+            <div class="chat_avatar">
+               
+            </div>Hey there! Any question?</span>
+      <span class="chat_msg_item chat_msg_item_admin">
+            <div class="chat_avatar">
+               
+            </div>Hey! Would you like to talk tourism, support, or transport?</span>
+             <span class="status2">Just now. Not seen yet</span>
+    </div>
+    <!-- <div id="chat_body" class="chat_body">
+        
+    </div> -->
+    <div id="chat_form" class="chat_converse chat_form">
+    <a id="chat_fourth_screen" class="fab"><i class="zmdi zmdi-arrow-right"></i></a>
+      <span class="chat_msg_item chat_msg_item_admin">
+            <div class="chat_avatar">
+               
+            </div>Hey there! Any question?</span>
+      <span class="chat_msg_item chat_msg_item_user">
+            Hello!</span>
+            <span class="status">20m ago</span>
+      <span class="chat_msg_item chat_msg_item_admin">
+            <div class="chat_avatar">
+               
+            </div>Agent typically replies in a few hours. Don't miss their reply.
+            <div>
+              <br>
+              <form class="get-notified">
+                  <label for="chat_log_email">Get notified by email</label>
+                  <input id="chat_log_email" placeholder="ihamegrbt@gamil.com"/>
+                  <i class="zmdi zmdi-chevron-right"></i>
+              </form>
+            </div></span>
+
+        <span class="chat_msg_item chat_msg_item_admin">
+            <div class="chat_avatar">
+               
+            </div>Send message to agent.
+            <div>
+              <form class="message_form">
+                  <input placeholder="ihamegrbt@gmail.com"/>
+                  <input placeholder="Technical issue"/>
+                  <textarea rows="4" placeholder="Your message"></textarea>
+                  <button>Send</button> 
+              </form>
+
+        </div></span>   
+    </div>
+    <div class="fab_field">
+      <a id="fab_send" onclick="send()" class="fab"><i class="zmdi zmdi-mail-send"></i></a>
+      <textarea id="chatSend" name="chat_message" placeholder="Send a message" class="chat_field"></textarea>
+    </div>
+  </div>
+    <a id="prime" class="fab"><i class="prime zmdi zmdi-comment-outline"></i></a>
+</div>
+  <script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script  src="../js/chatscript.js"></script>
+
+<!-- sudo mysql -u root -p -->
+
+</body>
+</html>

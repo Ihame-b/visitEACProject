@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>SIGN UP | LOGIN</title>
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css'>
+
+	  <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+<div class="container" id="container">
+		
+	<div class="form-container sign-up-container">
+		
+		<div class='inputform'>
+			<h1>Create Account</h1>
+			<div class="radio-group">
+					<input type="radio" id="option-one" value="3" name="user-option" checked>
+					<label for="option-one">Tourist</label>
+					<input type="radio" id="option-two" value="2" name="user-option">
+					<label for="option-two">Admin</label>
+			</div>
+			<input type="text" id="first_name" placeholder="First Name" />
+			<input type="text" id="last_name" placeholder="Last Name" />
+			<input type="text" id="phone" placeholder="Phone number" />
+			<input type="email" id="signup-email" placeholder="Email" />
+			<input type="password" id="signup-password" placeholder="Password" />
+			<input type="password" id="password_confirm" placeholder="Confirm" />
+			<input type="text" id="address" placeholder="Address" />
+			<label style='color: red' id='error'></label>
+			<button id="btn-signup" onclick="signUp()">Sign Up</button>
+		</div>
+	</div>
+	<div class="form-container sign-in-container">
+		<div class='inputform'>
+			<h1>Sign in</h1>
+			<input type="email" id="login-email" placeholder="Email" />
+			<input type="password" id="login-password" placeholder="Password" />
+			<label style='color: red' id='error'></label>
+			<button id="btn-signin" onclick="signIn()">Sign In</button>
+		</div>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please signUp and login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and start to be with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<p><a href="./index.html">Home</a></p>
+</footer>
+	<script  src="./js/login.js"></script>
+</body>
+
+</html>
